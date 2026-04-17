@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deep Defender</title>
-     <link rel="stylesheet" href="Layer2.css">
+
+    <link rel="stylesheet" href="Layer2.css">
 </head>
 <body>
+    <form id="detectForm">
+    <input type="file" id="imageInput" accept="image/*">
+    <input type="file" id="audioInput" accept="audio/*">
+    <input type="text" id="urlInput" placeholder="Enter URL">
+    <button type="submit">Detect</button>
+</form>
 
-      <script src="script.js"></script>
+<div id="result"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
