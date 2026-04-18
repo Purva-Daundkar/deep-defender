@@ -1,6 +1,6 @@
 # Deep Defender
 
-Deep Defender is a Flask-based prototype for detecting potentially fake or synthetic media. It combines a lightweight web UI, SQLite-backed detection history, URL-based media analysis, and optional model code for image and audio deepfake detection.
+Deep Defender is a Flask-based prototype for detecting potentially fake or synthetic media. It combines a lightweight web UI, postgreSQl-backed detection history, URL-based media analysis, and optional model code for image and audio deepfake detection.
 
 This repository appears to have been built as a hackathon/demo project, and the current implementation mixes production-like pieces with simulated detection flows. The README below reflects the code as it exists today.
 
